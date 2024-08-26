@@ -6,7 +6,7 @@
 /*   By: ccastro <ccastro@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/21 18:44:32 by ccastro           #+#    #+#             */
-/*   Updated: 2024/08/21 22:34:15 by ccastro          ###   ########.fr       */
+/*   Updated: 2024/08/26 11:22:43 by ccastro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,15 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	*lst = new;
 }
 
-// int main(void) 
+// int	main(void)
 // {
-//     // Simple test cases to validate your functions
-//     t_list *head = NULL;
-//     t_list *new_node = ft_lstnew("Hello");
-//     ft_lstadd_front(&head, new_node);
-
-//     // Add more tests here if needed
-
-//     return 0;
+// 	t_list *Node1 = ft_lstnew("Hello");
+// 	t_list *Node2 = ft_lstnew("World");
+// 	ft_lstadd_front(&Node1, Node2);
+// 	t_list *temp = Node1;
+// 	while (temp)
+// 	{
+// 		printf("%s\n", temp->content);
+// 		temp = temp->next;
+// 	}
 // }

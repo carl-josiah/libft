@@ -6,7 +6,7 @@
 /*   By: ccastro <ccastro@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 16:38:51 by ccastro           #+#    #+#             */
-/*   Updated: 2024/08/04 07:16:23 by ccastro          ###   ########.fr       */
+/*   Updated: 2024/08/26 11:39:31 by ccastro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ size_t	ft_strlen(const char *s)
 // int	main(void)
 // {
 // 	char	s[5] = "Hello";
-// 
+
 // 	printf("ft_strlen: %zu\n", ft_strlen(s));	
 // 	printf("strlen: %zu\n", strlen(s));
 // }

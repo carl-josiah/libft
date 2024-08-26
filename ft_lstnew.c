@@ -6,7 +6,7 @@
 /*   By: ccastro <ccastro@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 19:16:08 by ccastro           #+#    #+#             */
-/*   Updated: 2024/08/23 17:31:47 by ccastro          ###   ########.fr       */
+/*   Updated: 2024/08/26 11:28:04 by ccastro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,9 @@ t_list	*ft_lstnew(void *content)
 	new->next = NULL;
 	return (new);
 }
+
+// int	main(void)
+// {
+// 	t_list	*Node = ft_lstnew("Hello");
+// 	printf("%s\n", Node->content);
+// }
