@@ -6,7 +6,7 @@
 /*   By: ccastro <ccastro@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 13:48:24 by ccastro           #+#    #+#             */
-/*   Updated: 2025/05/23 17:38:30 by ccastro          ###   ########.fr       */
+/*   Updated: 2025/06/10 14:16:26 by ccastro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,6 @@
 # include <stdlib.h>
 # include <limits.h>
 # include <unistd.h>
-# include <stdio.h>
-# include <string.h>
-# include <ctype.h>
-# include "ft_printf/ft_printf.h"
-# include "get_next_line.h"
-# include "get_next_line_bonus.h"
 
 typedef struct s_list
 {
